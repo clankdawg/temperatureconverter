@@ -10,7 +10,7 @@ std::string trim(const std::string& str) {
     return (start < end ? std::string(start, end) : "");
 }
 
-int celcius, faren, kelv = 0;
+float celcius, faren, kelv = 0;
 std::string i = "0";
 
 int main() {
